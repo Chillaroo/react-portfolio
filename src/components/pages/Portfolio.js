@@ -1,24 +1,101 @@
 import React from 'react';
+import sustainableReviews from '../../assets/sustainable-reviews.png';
+import weatherPlanner from '../../assets/weather-dashboard.png';
+import techBlog from '../../assets/tech-blog.png';
+import jsQuiz from '../../assets/javascript-quiz.png';
+import teamProfileGenerator from '../../assets/team-profile-generator.png';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="page">
+      <h1>Portfolio</h1>
+      <div className="card-container d-flex flex-row flex-wrap">
+        {/* SUSTAINABLE REVIEWS */}
+        <div className="card" >
+          <img className="card-img-top" src={sustainableReviews} alt="Sustainable Reviews Website" />
+          <div className="card-body">
+            <h5 className="card-title">Sustainable Reviews</h5>
+            <p className="card-text">A business review and rating app with a focus on sustainability. </p>
+            <ul>
+              <li>SQL database with Sequelize queries</li>
+              <li>Sever side rendering using Handlebars</li>
+              <li>Role: Backend Developer</li>
+            </ul>
+            <a href="http://obscure-ocean-20287.herokuapp.com/" className="card-link" target="_blank">View the deployed site here!</a>
+            <br />
+            <a href="https://github.com/Chillaroo/SustainableReviews" className="card-link" target="_blank">Explore the Github repository here!</a>
+          </div>
+        </div>
+
+        {/* WEATHER PLANNER */}
+        <div className="card" >
+          <img className="card-img-top" src={weatherPlanner} alt="Weather Dashboard" />
+          <div className="card-body">
+            <h5 className="card-title">Weather Dashboard</h5>
+            <p className="card-text">Displays current weather conditions and five-day forecast</p>
+            <ul>
+              <li>Retrieves data and images from OpenWeatherMap API</li>
+              <li>Revisit the forecast for previous searches or clear search history</li>
+              <li>Role: Sole Developer</li>
+            </ul>
+            <a href="https://chillaroo.github.io/weather-planner/Develop/index.html" className="card-link" target="_blank">View the deployed site here!</a>
+            <br />
+            <a href="https://github.com/Chillaroo/weather-planner" className="card-link" target="_blank">Explore the Github repository here!</a>
+          </div>
+        </div>
+
+        {/*TECH BLOG*/}
+        <div className="card" >
+          <img className="card-img-top" src={techBlog} alt="Blog" />
+          <div className="card-body">
+            <h5 className="card-title">Tech Blog</h5>
+            <p className="card-text">Sign in, publish a blog post, and comment on existing posts</p>
+            <ul>
+              <li>SQL database with sequelize queries</li>
+              <li>User authentication with bcrypt</li>
+              <li>Role: Sole developer</li>
+            </ul>
+            <a href="https://stormy-woodland-03331.herokuapp.com/" className="card-link" target="_blank">View the deployed site here!</a>
+            <br />
+            <a href="https://github.com/Chillaroo/tech-blog" className="card-link" target="_blank">Explore the Github repository here!</a>
+          </div>
+        </div>
+
+        {/*JAVASCRIPT QUIZ*/}
+        <div className="card" >
+          <img className="card-img-top" src={jsQuiz} alt="JavaScript Quiz" />
+          <div className="card-body">
+            <h5 className="card-title">JavaScript Quiz</h5>
+            <p className="card-text">Practice some basic JavaScript with this timed quiz</p>
+            <ul>
+              <li>Three second penalty for each wrong answer</li>
+              <li>Enter your initials to save your score and time</li>
+              <li>Role: Sole developer</li>
+            </ul>
+            <a href="https://github.com/Chillaroo/javascript-quiz" className="card-link" target="_blank">View the deployed site here!</a>
+            <br />
+            <a href="" className="card-link" target="_blank">Explore the Github repository here!</a>
+          </div>
+        </div>
+
+        {/*TEAM PROFILE GENERATOR*/}
+        <div className="card" >
+          <img className="card-img-top" src={teamProfileGenerator} alt="Team Profile Generator" />
+          <div className="card-body">
+            <h5 className="card-title">Team Profile Generator</h5>
+            <p className="card-text">Command line application that accepts user input and a team profile page</p>
+            <ul>
+              <li>Different prompts are given based on user choice</li>
+              <li>Utilizes npm Inquirer, Bootstrap, and Font Awesome</li>
+              <li>Role: Sole developer</li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1bpiP0UugyX4340Z2yyjBwiGX-wWGPb3I/view" className="card-link" target="_blank">View a video demo here!</a>
+            <br />
+            <a href="https://github.com/Chillaroo/team-profile-generator" className="card-link" target="_blank">Explore the Github repository here!</a>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }
