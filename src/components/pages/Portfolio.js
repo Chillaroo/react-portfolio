@@ -21,9 +21,9 @@ export default function Portfolio() {
               <li>Sever side rendering using Handlebars</li>
               <li>Role: Backend Developer</li>
             </ul>
-            <a href="http://obscure-ocean-20287.herokuapp.com/" className="card-link" target="_blank">View the deployed site here!</a>
+            <a href="http://obscure-ocean-20287.herokuapp.com/" className="card-link" target="_blank" rel="noreferrer">View the deployed site here!</a>
             <br />
-            <a href="https://github.com/Chillaroo/SustainableReviews" className="card-link" target="_blank">Explore the Github repository here!</a>
+            <a href="https://github.com/Chillaroo/SustainableReviews" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
         </div>
 
@@ -38,9 +38,9 @@ export default function Portfolio() {
               <li>Revisit the forecast for previous searches or clear search history</li>
               <li>Role: Sole Developer</li>
             </ul>
-            <a href="https://chillaroo.github.io/weather-planner/Develop/index.html" className="card-link" target="_blank">View the deployed site here!</a>
+            <a href="https://chillaroo.github.io/weather-planner/Develop/index.html" className="card-link" target="_blank" rel="noreferrer">View the deployed site here!</a>
             <br />
-            <a href="https://github.com/Chillaroo/weather-planner" className="card-link" target="_blank">Explore the Github repository here!</a>
+            <a href="https://github.com/Chillaroo/weather-planner" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
         </div>
 
@@ -55,9 +55,9 @@ export default function Portfolio() {
               <li>User authentication with bcrypt</li>
               <li>Role: Sole developer</li>
             </ul>
-            <a href="https://stormy-woodland-03331.herokuapp.com/" className="card-link" target="_blank">View the deployed site here!</a>
+            <a href="https://stormy-woodland-03331.herokuapp.com/" className="card-link" target="_blank" rel="noreferrer">View the deployed site here!</a>
             <br />
-            <a href="https://github.com/Chillaroo/tech-blog" className="card-link" target="_blank">Explore the Github repository here!</a>
+            <a href="https://github.com/Chillaroo/tech-blog" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
         </div>
 
@@ -72,9 +72,9 @@ export default function Portfolio() {
               <li>Enter your initials to save your score and time</li>
               <li>Role: Sole developer</li>
             </ul>
-            <a href="https://github.com/Chillaroo/javascript-quiz" className="card-link" target="_blank">View the deployed site here!</a>
+            <a href="https://github.com/Chillaroo/javascript-quiz" className="card-link" target="_blank" rel="noreferrer">View the deployed site here!</a>
             <br />
-            <a href="" className="card-link" target="_blank">Explore the Github repository here!</a>
+            <a href="" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
         </div>
 
@@ -89,9 +89,9 @@ export default function Portfolio() {
               <li>Utilizes npm Inquirer, Bootstrap, and Font Awesome</li>
               <li>Role: Sole developer</li>
             </ul>
-            <a href="https://drive.google.com/file/d/1bpiP0UugyX4340Z2yyjBwiGX-wWGPb3I/view" className="card-link" target="_blank">View a video demo here!</a>
+            <a href="https://drive.google.com/file/d/1bpiP0UugyX4340Z2yyjBwiGX-wWGPb3I/view" className="card-link" target="_blank" rel="noreferrer">View a video demo here!</a>
             <br />
-            <a href="https://github.com/Chillaroo/team-profile-generator" className="card-link" target="_blank">Explore the Github repository here!</a>
+            <a href="https://github.com/Chillaroo/team-profile-generator" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
         </div>
 

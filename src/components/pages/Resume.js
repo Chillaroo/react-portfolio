@@ -12,30 +12,33 @@ import node from '../../assets/node.png';
 import reactPic from '../../assets/react.png';
 import sequelize from '../../assets/sequelize.png';
 import express from '../../assets/express.png'
+import resume from '../../assets/resume.pdf'
 
 export default function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
+      <a className="resume" href={resume} download="Rachel Chin Resume" target="blank">
+        <h1>Resume Download</h1>
+      </a>
       <div className="container skills-container">
         <h2 className="skills">Front-End Skills</h2>
-        <div className="row">
-          <img className="logo" src={html5} />
-          <img className="logo" src={css3} />
-          <img className="logo" src={javascript} />
-          <img className="logo" src={jquery} />
-          <img className="logo" src={bootstrap} />
+        <div className="row justify-content-center">
+          <img className="logo" src={html5} alt="HTML5" />
+          <img className="logo" src={css3} alt="CSS3"/>
+          <img className="logo" src={javascript} alt="JavaScript"/>
+          <img className="logo" src={jquery} alt="JQuery"/>
+          <img className="logo" src={bootstrap} alt="Bootstrap"/>
         </div>
         <h2 className="skills">Back-End Skills</h2>
-        <div className="row">
-          <img className="logo" src={mongodb} />
-          <img className="logo-medium" src={mongoose} />
-          <img className="logo" src={mysql} />
-          <img className="logo" src={sequelize} />
-          <img className="logo" src={node} />
-          <img className="logo-medium" src={reactPic} />
-          <img className="logo" src={graphql} />
-          <img className="logo-long" src={express}/>
+        <div className="row justify-content-center">
+          <img className="logo" src={mongodb} alt="MongoDB"/>
+          <img className="logo-medium" src={mongoose} alt="Mongoose"/>
+          <img className="logo" src={mysql} alt="mySQL"/>
+          <img className="logo" src={sequelize} alt="Sequelize"/>
+          <img className="logo" src={node} alt="node.js"/>
+          <img className="logo-medium" src={reactPic} alt="React"/>
+          <img className="logo" src={graphql} alt="GraphQL"/>
+          <img className="logo-long" src={express} alt="Express"/>
         </div>
       </div>
 
