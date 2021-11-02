@@ -72,9 +72,9 @@ export default function Portfolio() {
               <li>Enter your initials to save your score and time</li>
               <li>Role: Sole developer</li>
             </ul>
-            <a href="https://github.com/Chillaroo/javascript-quiz" className="card-link" target="_blank" rel="noreferrer">View the deployed site here!</a>
+            <a href="https://chillaroo.github.io/javascript-quiz/" className="card-link" target="_blank" rel="noreferrer">View the deployed site here!</a>
             <br />
-            <a href="" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
+            <a href="https://github.com/Chillaroo/javascript-quiz" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
         </div>
 

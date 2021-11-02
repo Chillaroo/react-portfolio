@@ -5,7 +5,6 @@ function Contact() {
   const [validated, setValidated] = useState(true);
   const [validName, setValidName] = useState(false);
   const [validMessage, setValidMessage] = useState(false);
-  //const [formFields, setFormFields] = useState(false)
 
   function validateEmail(event) {
     const email = event.target.value;
@@ -22,7 +21,7 @@ function Contact() {
     const {name, value} = event.target
 
     if(name==="Name") {
-      if(value.length > 1){
+      if(value.length > 0){
         setValidName(true);
       } else {
         setValidName(false);
@@ -30,7 +29,7 @@ function Contact() {
     }
 
     if(name==="Message") {
-      if(value.length > 1){
+      if(value.length > 0){
         setValidMessage(true);
       } else {
         setValidMessage(false);
