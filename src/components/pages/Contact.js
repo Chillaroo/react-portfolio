@@ -74,7 +74,7 @@ function Contact() {
           >
         </textarea>
         <button type="submit"
-          className="btn btn-secondary"
+          className="btn btn-dark"
           style={{"display": (validName&&validMessage&&validated) ? "block":"none"}}
         >Submit</button>
         <p
