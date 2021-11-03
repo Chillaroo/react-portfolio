@@ -89,7 +89,7 @@ export default function Portfolio() {
               <li>Utilizes npm Inquirer, Bootstrap, and Font Awesome</li>
               <li>Role: Sole developer</li>
             </ul>
-            <a href="https://drive.google.com/file/d/1bpiP0UugyX4340Z2yyjBwiGX-wWGPb3I/view" className="card-link" target="_blank" rel="noreferrer">View a video demo here!</a>
+            <a href="https://watch.screencastify.com/v/547D327GZUSNCODpKtzF" className="card-link" target="_blank" rel="noreferrer">View a video demo here!</a>
             <br />
             <a href="https://github.com/Chillaroo/team-profile-generator" className="card-link" target="_blank" rel="noreferrer">Explore the Github repository here!</a>
           </div>
