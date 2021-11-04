@@ -1,7 +1,7 @@
 
 :root {
     --border-color:black;
-    --shadow-color: teal;
+    --shadow-color: rgba(16,16,16,0.4);
 }
 
 body {
@@ -92,11 +92,13 @@ h1 {
 
 .logo{
     max-width: 100px;
+    align-self: center;
+    margin: auto;
 }
 
 .logo-long{
     max-width:200px;
-    max-height: 50px;;
+    max-height: 50px;
 }
 
 .logo-medium{
@@ -171,4 +173,67 @@ section .section-title {
     border-top-right-radius: .25rem;
     color: #eee;
     font-size: 20px;
+}
+
+#carouselExampleControls, #carouselExampleControls2{
+    max-width: 275px;
+}
+
+.carousel-caption{
+    position: relative;
+    left: 0;
+    top: 1;
+    color: black;
+    height: 100px;
+}
+
+.carousel-caption h5{
+ position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    font-size: 1.75em;
+    font-weight: 500;
+    color: #eee;
+    text-shadow: 1px 1px 1px #1e5e4f,
+        1px 2px 1px #1e5e4f,
+        1px 3px 1px #1e5e4f,
+        1px 4px 1px #1e5e4f,
+        1px 5px 1px #1e5e4f,
+        1px 6px 1px #1e5e4f,
+        1px 6px 3px rgba(16,16,16,0.4),
+        1px 10px 5px rgba(16,16,16,0.2),
+        1px 12px 15px rgba(16,16,16,0.2),
+        1px 18px 30px rgba(16,16,16,0.4);
+}
+
+.skills{
+     font-size: 1.75em;
+    font-weight: 500;
+    color: #eee;
+    text-shadow: 1px 1px 1px #1e5e4f,
+        1px 2px 1px #1e5e4f,
+        1px 3px 1px #1e5e4f,
+        1px 4px 1px #1e5e4f,
+        1px 5px 1px #1e5e4f,
+        1px 6px 1px #1e5e4f,
+        1px 6px 3px rgba(16,16,16,0.4),
+        1px 10px 5px rgba(16,16,16,0.2),
+        1px 12px 15px rgba(16,16,16,0.2),
+        1px 18px 30px rgba(16,16,16,0.4);
+}
+
+h1 {
+    font-weight: 500;
+    color: #eee;
+    text-shadow: 1px 1px 1px #1e5e4f,
+        1px 2px 1px #1e5e4f,
+        1px 3px 1px #1e5e4f,
+        1px 4px 1px #1e5e4f,
+        1px 5px 1px #1e5e4f,
+        1px 6px 1px #1e5e4f,
+        1px 6px 3px rgba(16,16,16,0.4),
+        1px 10px 5px rgba(16,16,16,0.2),
+        1px 12px 15px rgba(16,16,16,0.2),
+        1px 18px 30px rgba(16,16,16,0.4);
 }
